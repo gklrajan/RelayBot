@@ -19,7 +19,7 @@ account_address: Hyperliquid account address.
 BOT_TOKEN: Telegram bot token.
 CHAT_ID: Telegram chat ID.
 
-**Security Tips**
+**Security Tips** 
 Use environment variables to store sensitive credentials.
 Use a dedicated Gmail account with 2FA enabled.
 Restrict Telegram bot permissions to your chat only.
