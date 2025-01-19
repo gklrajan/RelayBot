@@ -1,9 +1,12 @@
 # RelayBot
 
-RelayBot bridges the gap between TradingView webhooks and unsupported exchanges using Gmail as an intermediary. It processes TradingView alerts, interprets trading signals, and executes market orders on Hyperliquid.
+RelayBot bridges the gap between TradingView webhooks and unsupported exchanges using Gmail as an intermediary. 
+
+**Who is it for?** 
+If you use pine scripting to develop algorithms as a hobby (or even professionally) but TV doesn't natively support integration with your fav exchange, RelayBot can come handy. It processes TradingView alerts, interprets trading signals, and executes market orders on Hyperliquid DEX.
 
 **Features**:
-- Reads TradingView alerts sent to Gmail and processes trading signals.
+- Reads TradingView alerts sent to Gmail and processes trading signals.c
 - Executes buy and sell orders on Hyperliquid using their API.
 - Updates balance dynamically when positions are closed.
 - Sends real-time Telegram notifications for updates and errors.
