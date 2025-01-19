@@ -4,7 +4,7 @@ RelayBot bridges the gap between TradingView webhooks and unsupported exchanges 
 
 **Who is it for?** 
 
-If you use pine scripting to develop algorithms as a hobby (or even professionally) but TV doesn't natively support integration with your fav exchange, RelayBot can come handy. It processes TradingView alerts, interprets trading signals, and executes market orders on Hyperliquid DEX.
+If you use pine scripting to develop algorithms as a hobby (or even professionally) but TradingView doesn't natively support integration with your fav exchange, RelayBot's approach can come handy. If your fav exchange is Hyperliquid, that's even better as this script utilizes the Hyperliquid API. It processes TradingView alerts, interprets trading signals, and executes market orders on Hyperliquid DEX. It is only suitable for high timeframe strategies and not for low latency, high frequency trading.
 
 **Features**:
 - Reads TradingView alerts sent to Gmail and processes trading signals.c
