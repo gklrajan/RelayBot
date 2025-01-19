@@ -20,7 +20,7 @@ BOT_TOKEN: Telegram bot token.
 CHAT_ID: Telegram chat ID.
 
 **Security Tips** 
-Use environment variables to store sensitive credentials.
-Use a dedicated Gmail account with 2FA enabled.
-Restrict Telegram bot permissions to your chat only.
+- Use environment variables to store sensitive credentials. 
+- Use a dedicated Gmail account with 2FA enabled.
+- Restrict Telegram bot permissions to your chat only.
 Disclaimer: RelayBot is provided "as-is." Use it at your own risk. The author assumes no responsibility for losses or misconfigurations.
