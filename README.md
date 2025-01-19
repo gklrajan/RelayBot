@@ -30,3 +30,7 @@ If you use pine scripting to develop algorithms as a hobby (or even professional
 - Restrict Telegram bot permissions to your chat only.
 
 **Disclaimer: RelayBot is provided "as-is" for reference purposes only. Use it at your own risk. The author assumes no responsibility for any financial losses, system failures, misconfigurations, or other issues arising from the use of this tool. Users are encouraged to thoroughly review and test the code before deploying it in a live environment.**
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
