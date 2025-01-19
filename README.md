@@ -23,4 +23,5 @@ RelayBot bridges the gap between TradingView webhooks and unsupported exchanges 
 - Use environment variables to store sensitive credentials. 
 - Use a dedicated Gmail account with 2FA enabled.
 - Restrict Telegram bot permissions to your chat only.
-Disclaimer: RelayBot is provided "as-is." Use it at your own risk. The author assumes no responsibility for losses or misconfigurations.
+
+**Disclaimer: RelayBot is provided "as-is." Use it at your own risk. The author assumes no responsibility for losses or misconfigurations.**
