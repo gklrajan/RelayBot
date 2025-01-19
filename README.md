@@ -11,13 +11,13 @@ RelayBot bridges the gap between TradingView webhooks and unsupported exchanges 
 **Setup Instructions**
 - Clone the repository.
 - Install dependencies: pip install -r requirements.txt
-- Set the environment variables: 
-EMAIL: Your Gmail address for receiving alerts.
-APP_PASSWORD: Gmail app-specific password. (Enable 2-Step Verification in your Google Account Security. Go to App Passwords and generate one for "Mail."Use this password.)
-secret_key: Hyperliquid private API key.
-account_address: Hyperliquid account address.
-BOT_TOKEN: Telegram bot token.
-CHAT_ID: Telegram chat ID.
+- Set the environment variables:
+  EMAIL: Your Gmail address for receiving alerts.
+  APP_PASSWORD: Gmail app-specific password. (Enable 2-Step Verification in your Google Account Security. Go to App Passwords and generate one for "Mail."Use this password.)
+  secret_key: Hyperliquid private API key.
+  account_address: Hyperliquid account address.
+  BOT_TOKEN: Telegram bot token.
+  CHAT_ID: Telegram chat ID.
 
 **Security Tips** 
 - Use environment variables to store sensitive credentials. 
