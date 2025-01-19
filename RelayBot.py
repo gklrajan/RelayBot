@@ -32,7 +32,7 @@ if not private_key or not account_address:
     raise ValueError("Private key or account address not found in environment variables.")
 
 # Hyperliquid configuration
-vault_address = "" # Your vault name
+vault_address = "" # Your vault address. It's as straightforward to use it directly with an account. The vault setup is simly more flexible.
 
 # Setup Hyperliquid Exchange with Vault
 address, info, exchange = example_utils.setup(constants.MAINNET_API_URL, skip_ws=True)
@@ -100,7 +100,7 @@ def execute_market_order(symbol, action, contracts):
         position_closed = False
 
     # Calculate order size directly from contracts
-    quantity = round(contracts * 5, 5) # This depends on how you set up your signal, and the size and leverage you want
+    quantity = round(contracts * 5, 5) # This depends on how you set up your signal, and the size and leverage you want to use
 
     print(f"Executing {action} order for {quantity} {symbol}.")
     send_telegram_message(f"Executing {action} order for {quantity} {symbol}.", tag)
@@ -177,7 +177,7 @@ def process_json_data(data):
         symbol = data.get("order", {}).get("filled_on")
         contracts = float(data.get("order", {}).get("contracts"))
 
-        if strategy_name == "MY TradingView Strategy":  # Replace with your TradingView strategy name
+        if strategy_name == "MY TradingView Strategy XYZ":  # Replace with your TradingView strategy name
             new_position_size = float(data.get("position", {}).get("new_strategy_position", 0))
             current_position_size = new_position_size - contracts
 
